@@ -10,14 +10,19 @@
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    color: #000;
 }
 
 .contact input[type="email"] {
     margin-bottom: 10px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+    color: #000;
 }
 
+#comment {
+    color: #000;
+ }
 
 .contact textarea {
     margin-bottom: 10px;
