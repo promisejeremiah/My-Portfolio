@@ -1,6 +1,7 @@
 import React from 'react';
 import './Project.css'
-import img from '../images/webscrapper.jpeg';
+import img from '../images/webscrap.jpeg';
+import imgb from '../images/register.png';
 import imgc from '../images/iris.png';
 
 
