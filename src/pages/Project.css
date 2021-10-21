@@ -1,0 +1,18 @@
+a.card,
+a.card:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+
+.card .card-body {
+  max-height:200px;
+  overflow: auto;
+}
+
+.project {
+  background-color: #f5f5f5;
+  padding: 25px 25px 25px 25px;
+  border-radius: 10px;
+  margin-top: 90px;
+}
