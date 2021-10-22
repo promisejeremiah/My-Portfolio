@@ -38,7 +38,10 @@ const Login = () => {
             <div className="login-form">
                 <form onSubmit={submit}>
                 <h1 className=" text-white p-4 text-center font-weight-bolder">Login</h1>
-
+                <div>
+                    <p className="text-white">Need an account? <span>
+                        <Link className="text-white" to={'/register'}>Sign In</Link></span></p>
+                </div>
                 <div>
                     <input type="email" className="form-control"  placeholder="Enter email" required
                         onChange={e => setEmail(e.target.value)} />
@@ -49,12 +52,17 @@ const Login = () => {
                         onChange={e => setPassword(e.target.value)} />
                 </div>
 
-                <div className="row justify-content-center pb-5 pt-4">
+                <div className="row justify-content-center pb-4 pt-4">
                     <button className="btn btn-lg btn-primary justify-content-center" type="submit">Login</button>
+                </div>
+                <div>
+                    <p className="text-white pb-5"> 
+                        <Link className="text-white" to={'#'}> Forgot Password? </Link>
+                    </p>
                 </div>
                 </form>
             </div>
-        </div>
+       </div>
     );
 };
 
