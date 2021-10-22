@@ -19,9 +19,6 @@ const Nav = () => {
                         <Link className="nav-link px-4 font-weight-bold" to={"/login"} >Login</Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link px-4 font-weight-bold" to={"/register"} >Register</Link>
-                    </li>
-                    <li className="nav-item active">
                         <Link className="nav-link px-4 font-weight-bold" to={"/contact"} >Contact</Link>                    
                     </li>
                     <li className="nav-item active">
