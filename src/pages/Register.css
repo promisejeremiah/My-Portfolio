@@ -29,10 +29,10 @@
 
 .reg-form {
     padding-top: 10px;
-    margin-top: 150px;
+    margin-top: 100px;
     padding-left: 35px;
     padding-right: 35px;
-    background-color: #0E3506;
+    border: #0E3506 3px solid;
     border-radius: 10px;
     margin-left: -50px;
     margin-right: -50px;
