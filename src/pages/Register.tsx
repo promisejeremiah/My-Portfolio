@@ -57,6 +57,10 @@ const Register = () => {
                 <div className="row justify-content-center pb-5 pt-4">
                     <button className="btn btn-lg btn-primary justify-content-center" type="submit">Register</button>
                 </div>
+                <div>
+                    <p className="text-white pb-4">Have an account? <span>
+                        <Link className="text-white" to={'/login'}>Login</Link></span></p>
+                </div>
                 </form>
             </div>
         </div>
