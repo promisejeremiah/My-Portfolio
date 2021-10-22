@@ -1,5 +1,5 @@
 import React, { SyntheticEvent, useState } from 'react';
-import { Redirect } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import './Register.css';
 
 
