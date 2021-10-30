@@ -22,7 +22,7 @@ const Nav = () => {
                         <Link className="nav-link px-4 font-weight-bold" to={"/contact"} >Contact</Link>                    
                     </li>
                     <li className="nav-item active">
-                        <button className="btn btn-success px-4 font-weight-bold" type="submit">Download CV</button>
+                        <button className="btn btn-success px-4 font-weight-bold" type="submit"><a href="https://drive.google.com/uc?export=download&id=1vMi2V_zdSY0f2z7tA047dIrA3wAtxPHM">Download CV</a></button>
                     </li>
                     </ul>
                 </div>
